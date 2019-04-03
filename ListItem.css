@@ -18,14 +18,19 @@ hr{
   background:green;
   margin-left:30%;
   margin-right: 30%;
+  
   }
   .items li{
     text-align:center;
     padding: 0;
     list-style-type: decimal;
     border-bottom-style:none;
+   }
 
-  }
+  .items li:last-child{
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+}
 #info{
   color:red;
   background: white;
